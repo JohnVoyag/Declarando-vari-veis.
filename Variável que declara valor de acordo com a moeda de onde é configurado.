@@ -1,0 +1,16 @@
+var n1 = 1543.50
+> n1
+1543.5
+n1.toFixed(2).replace('.',',')
+> n1.toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'
+'R$ 1.543,50'
+
+
+> var n2 = 2015.48
+undefined
+> n2
+2015.48
+> n2.toFixed(2).replace('.', ',')
+'2015,48'
+> n2.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+'R$ 2.015,48'
